@@ -1,0 +1,1 @@
+this is a flashcard app where users can create decks to study with information on the front and back of the cards. A section to study the cards, add more cards or delete the deck. 
