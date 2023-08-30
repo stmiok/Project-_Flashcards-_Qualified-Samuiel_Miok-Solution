@@ -62,7 +62,7 @@ function CardForm({ mode = "create" }) {
         // API call to update card with new data
         await updateCard(formData, abortCon.signal);
         // redirect to the decks page after edit 
-        history.pushState(`/decks/${deckId}`);
+        history.push(`/decks/${deckId}`);
         // throw errors if there are any 
       } catch (error) {
         throw error;
