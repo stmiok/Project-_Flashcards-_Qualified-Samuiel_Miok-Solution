@@ -104,7 +104,7 @@ function CardForm({ mode = "create" }) {
             {mode === "edit" ? "Cancel" : "Done"}
           </Link>
           <button type="submit" className="btn btn-primary">
-            {mode === "edit" ? "Cancel" : "Save"}
+            {mode === "edit" ? "Submit" : "Save"}
           </button>
         </div>
       </form>
